@@ -56,9 +56,9 @@
         
     // }
 
-    for (let i=1; i<=5; i++)
+    for (let i=1; i<6; i++)
     {
-        for (let j=1; j<=5; j++)
+        for (let j=1; j<6; j++)
         {
             if(j<=i)
             {
@@ -68,6 +68,24 @@
             {
                 document.write(" ")
             }
-            
         }
+        document.write("<br>")
+    }
+
+document.write("<br>")
+
+    for (let r=1; r<7; r++)
+    {
+        for (let c=1; c<9; c++)
+        {
+            if(r==1 || r==6 || c==1 || c==8)
+            {
+                document.write("*")
+            }
+            else
+            {
+                document.write("&nbsp&nbsp")
+            }
+        }
+        document.write("<br>")
     }
