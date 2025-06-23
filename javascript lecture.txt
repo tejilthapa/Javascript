@@ -75,6 +75,31 @@ for
 
 For Nested loop :
 Every time the condition of outer loop is true the inner loops starts from the starting again and again
+
+20, June, 2025;:-
+
+Array - collection of multiple type of data is called array.
+It is denoted by [] brackets.
+This is ordered because due to indexing and is started by 0.
+It is used to store multiple data in a single variable.
+Index is the position of the element or the address of the value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---------------------------------------------x------------------------------------------------------
 
 H.W.
