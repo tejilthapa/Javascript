@@ -76,7 +76,7 @@ for
 For Nested loop :
 Every time the condition of outer loop is true the inner loops starts from the starting again and again
 
-20, June, 2025;:-
+20, June, 2025:-
 
 Array - collection of multiple type of data is called array.
 It is denoted by [] brackets.
@@ -84,18 +84,39 @@ This is ordered because due to indexing and is started by 0.
 It is used to store multiple data in a single variable.
 Index is the position of the element or the address of the value.
 
+23, June, 2025:-
+
+
+Push() fn -> it is used to add latest value in the end of the array.
+Pop() fn -> it is used to remove the last index from the array.
+Unshift() fn -> shifts the selected index to the front in array.
+Shift() fn -> Removes the very first index from the array
+Slice() fn -> takes out a element of the selected index from the array.(where the no. is,the adjcent no.)
+Splice() fn -> deletes the element in a starting to ending manner.
+
+
+24, June, 2025:-
+
+Object-> Object is used to store multiple type of elements, it is not ordered and it has no indexing, object is denoted by {}.
+		 The Data that Fills up is in key value pair.the left side on the column is key and the right side is value, a single key can store multiple data,
 
 
 
 
+25, June, 2025:-
 
+Function
+Pre-defined Function -> where the funciton is already there just need to called
+user-defined Function -> wherer the function is created by the user as their desire
 
+Type of user defined:-
 
+1. without argument & no return value
+2. with argument & not return value
+3. with argument & with return value
+4. without argument & with return value
 
-
-
-
-
+Argument works as a input for the function.
 
 
 
@@ -109,3 +130,5 @@ What is the latest version of ES Script (JS)?
 
 What is Scripting language?
 ->
+
+print 1st top key in object
