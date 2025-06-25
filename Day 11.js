@@ -44,14 +44,40 @@
 // tab()
 
 
-function type1(a) // parameter stores the value from the function calling
+// function type1(a) // parameter stores the value from the function calling
+// {
+//     return a+a;
+// }
+
+// let b= parseInt(prompt("Enter a number:"))
+
+// let c= type1(b)  // to store any retuned value
+
+// console.log(type1(b)) // to print it directly
+
+
+// function cloud(a)
+// {
+//     console.log(a*a*a)
+// }
+
+// cloud(8)
+
+// wap to check number is +ve or -ve using function type 2
+
+function posneg(a)
 {
-    return a+a;
+    if(a>=0)
+    {
+        console.log("positive")
+    }
+    else
+    {
+        console.log("negative")
+    }
 }
+let b=parseInt(prompt("Enter a number:"))
 
-let b= parseInt(prompt("Enter a number:"))
+let c=posneg(b)
 
-let c= type1(b)  // to store any retuned value
-
-console.log(type1(b)) // to print it directly
-
+console.log(c)
