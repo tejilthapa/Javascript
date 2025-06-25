@@ -78,6 +78,4 @@ function posneg(a)
 }
 let b=parseInt(prompt("Enter a number:"))
 
-let c=posneg(b)
-
-console.log(c)
+posneg(b)
