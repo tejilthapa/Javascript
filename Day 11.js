@@ -44,3 +44,14 @@
 // tab()
 
 
+function type1(a) // parameter stores the value from the function calling
+{
+    return a+a;
+}
+
+let b= parseInt(prompt("Enter a number:"))
+
+let c= type1(b)  // to store any retuned value
+
+console.log(type1(b)) // to print it directly
+
