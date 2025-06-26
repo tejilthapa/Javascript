@@ -81,10 +81,19 @@
 // posneg(b)
 
 
-function demo(a)
-{
-    return a+a
-}
-let b = demo(10)
+// function demo(a)
+// {
+//     return a+a
+// }
+// let b = demo(10)
 
-console.log(3.14*b*b)
+// console.log(3.14*b*b)
+
+
+function demo()
+{
+    let a = prompt("Enter your name:")
+    reutrn a
+}
+
+console.log(demo())
