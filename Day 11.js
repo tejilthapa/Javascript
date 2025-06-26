@@ -65,17 +65,26 @@
 
 // wap to check number is +ve or -ve using function type 2
 
-function posneg(a)
-{
-    if(a>=0)
-    {
-        console.log("positive")
-    }
-    else
-    {
-        console.log("negative")
-    }
-}
-let b=parseInt(prompt("Enter a number:"))
+// function posneg(a)
+// {
+//     if(a>=0)
+//     {
+//         console.log("positive")
+//     }
+//     else
+//     {
+//         console.log("negative")
+//     }
+// }
+// let b=parseInt(prompt("Enter a number:"))
 
-posneg(b)
+// posneg(b)
+
+
+function demo(a)
+{
+    return a+a
+}
+let b = demo(10)
+
+console.log(3.14*b*b)
