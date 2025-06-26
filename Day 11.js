@@ -96,7 +96,4 @@ function demo()
     reutrn a
 }
 
-console.log(demo())4
-
-
-//////
+console.log(demo())
