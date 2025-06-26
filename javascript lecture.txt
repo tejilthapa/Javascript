@@ -118,6 +118,9 @@ Type of user defined:-
 
 Argument works as a input for the function.
 
+when a value is reutrned it goes back to the function calling.
+It can be either printed directly or store in a  variable to do operations later on
+
 
 
 
