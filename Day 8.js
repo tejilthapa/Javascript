@@ -27,5 +27,7 @@ for(let j=0; j<10; j++)
 // for of loop
 for(let vl of ar1)
 {
-    console.log(vl) 
+    console.log(vl)
 }
+
+/////////////////////
