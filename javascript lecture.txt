@@ -135,3 +135,5 @@ What is Scripting language?
 ->
 
 print 1st top key in object
+
+What is ES6
