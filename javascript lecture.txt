@@ -124,7 +124,8 @@ It can be either printed directly or store in a  variable to do operations later
 
 
 DOM - Document Object Module
-Whatever change in html is done by this is called Node and 
+Whatever change in html is done by this is called Node.
+To apply a change you need to target that tag.
 ---------------------------------------------x------------------------------------------------------
 
 H.W.
