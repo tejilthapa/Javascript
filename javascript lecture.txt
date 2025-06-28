@@ -1,0 +1,141 @@
+27, March, 2025 :-
+
+Java script was made by Brendan Eich in 1995 in 10 days. The former name of javascript was mocha
+the registered name of javascript is ECMA (European Computer Manufacturers Association) script. 
+JS was first time used as backhand in 2008 in nodeJS.
+JS is a client side (fronthand) and server side (backhand) scripting language. 
+JS is Dynamic and lightweighted language which is why we connect it in html at the bottom of the code.
+JS became popular in June 2015 when its biggest update ES6(ver.6) was launched.
+JS has datatype Number ,String and Boolean.
+
+28, March, 2025 :-
+
+Data types :-
+
+(i) Primitive Datatypes :
+	Number - Integer & Floating-point Numbers.
+	Boolean - True or False.
+	String - A sequence of alphanumeric characters.
+
+(ii) Composite Datatypes (or Complex Datatypes) :
+	Object - A named collection of data.
+	Array - A sequence of values (an array is actually a predefined object).
+
+(iii) Special Datatypes :
+	Null - The only value is "null" -- to represent nothing.
+	Undefined : The only Value is "undefined" -- to represent an uninitialized variable.
+
+*Operator ->typeof - This is the Operator which tell the user the name of the datatype in the console.
+			Syntax - console.log(typeof("name of variable"))
+
+Type Conversion (Type Coercion) :
+	The next variable gets convert to the same as the first variable.
+
+	The first priority goes to string.
+	The second priority goes to number.
+	The Third priority goes to boolean.
+
+
+13, June, 2025 :-
+(Day 3)
+To declare variables in js 3 keywords are used var, let and const.
+
+Rules of identifiers:-
+1. it will not start from digit
+2. cannot be started from special characters.
+3. space cannot be used.
+
+
+14, June, 2025:-
+(Day 4)
+Special characters are called Operators. they are used to perform task consisting of Special symbols
+
+Uniary Operator -> ++, --. this works on a single value
+Binary Operator -> Arthematic(+,-,*,/,%), Assignment(=,+=,-=,/=), Relational(>,<,>=,<=,==,===,!=), logical(&&,!,||).
+Ternary Operator -> ?true:false
+
+parseInt is used to convert the stirng taken in prompt into integar.
+parseFloart is used to convert the stirng taken in prompt into decimal.
+
+16, June, 2025:-
+(Day 5)
+if , if then else, if else ladder, nested if else
+
+
+18, June, 2025:-
+(Day 6)
+
+Type of Loops:-
+
+do while
+while
+for
+
+19, June, 2025:-
+
+For Nested loop :
+Every time the condition of outer loop is true the inner loops starts from the starting again and again
+
+20, June, 2025:-
+
+Array - collection of multiple type of data is called array.
+It is denoted by [] brackets.
+This is ordered because due to indexing and is started by 0.
+It is used to store multiple data in a single variable.
+Index is the position of the element or the address of the value.
+
+23, June, 2025:-
+
+
+Push() fn -> it is used to add latest value in the end of the array.
+Pop() fn -> it is used to remove the last index from the array.
+Unshift() fn -> shifts the selected index to the front in array.
+Shift() fn -> Removes the very first index from the array
+Slice() fn -> takes out a element of the selected index from the array.(where the no. is,the adjcent no.)
+Splice() fn -> deletes the element in a starting to ending manner.
+
+
+24, June, 2025:-
+
+Object-> Object is used to store multiple type of elements, it is not ordered and it has no indexing, object is denoted by {}.
+		 The Data that Fills up is in key value pair.the left side on the column is key and the right side is value, a single key can store multiple data,
+
+
+
+
+25, June, 2025:-
+
+Function
+Pre-defined Function -> where the funciton is already there just need to called
+user-defined Function -> wherer the function is created by the user as their desire
+
+Type of user defined:-
+
+1. without argument & no return value
+2. with argument & not return value
+3. with argument & with return value
+4. without argument & with return value
+
+Argument works as a input for the function.
+
+when a value is reutrned it goes back to the function calling.
+It can be either printed directly or store in a  variable to do operations later on
+
+
+
+DOM - Document Object Module
+Whatever change in html is done by this is called Node.
+To apply a change you need to target that tag.
+---------------------------------------------x------------------------------------------------------
+
+H.W.
+
+What is the latest version of ES Script (JS)?
+-> E15 June 2024.
+
+What is Scripting language?
+->
+
+print 1st top key in object
+
+What is ES6
