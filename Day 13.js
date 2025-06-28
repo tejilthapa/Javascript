@@ -10,3 +10,7 @@ b.innerHTML="<i>Clouds</i>"
 
 let c = document.getElementsByClassName('head3')
 c[0].textContent="change with js"
+
+let d = document.getElementsByTagName('p')
+
+d.textContent="inside js"
