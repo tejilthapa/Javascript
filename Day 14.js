@@ -23,3 +23,11 @@ image.src="f2.jpeg"
 image.style.borderRadius="50%"
 image.style.height="200px"
 image.style.width="200px"
+
+let h22=document.getElementById('h2')
+
+h22.setAttribute('align','center')
+
+let h3=document.getElementById('h3')
+
+h3.removeAttribute('style')
