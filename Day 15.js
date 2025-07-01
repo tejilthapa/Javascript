@@ -45,10 +45,16 @@ function p()
 {
     let h1 = document.getElementById('h1')
     h1.textContent = parseInt(h1.textContent) + 1;
+    if ((parseInt(h1.textContent)%2) != 0) {
+        h1.style.color = "red"
+    }
 }
 
 function m()
 {
     let h1 = document.getElementById('h1')
     h1.textContent = parseInt(h1.textContent) - 1;
+    if (parseInt(h1.textContent) < 0) {
+        h1.textContent = 0;
+    }
 }
