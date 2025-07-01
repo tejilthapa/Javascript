@@ -24,8 +24,21 @@
 // }
 
 
-function cc(a) {
-    let h1 = document.getElementById('h1');
-    h1.textContent = a;
-    document.body.style.backgroundColor = a;
+// function cc(a) {
+//     let h1 = document.getElementById('h1');
+//     h1.textContent = a;
+//     document.body.style.backgroundColor = a;
+// }
+
+
+function p()
+{
+    let h1 = document.getElementById('h1')
+    h1.textContent = parseInt(h1.textContent) + 1;
+}
+
+function m()
+{
+    let h1 = document.getElementById('h1')
+    h1.textContent = parseInt(h1.textContent) - 1;
 }
