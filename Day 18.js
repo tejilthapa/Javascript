@@ -1,7 +1,7 @@
 function validate()
 {
     let name = document.querySelector('#name').value
-    let city  = document.querySelector('#city').value
+    let city = document.querySelector('#city').value
     let con  = document.querySelector('#con').value
     let age  = document.querySelector('#age').value
 
@@ -19,16 +19,37 @@ function validate()
 
         return false
     }
-  else if(con.length>10 || con.length<10)
+    else if(con=="")
     {
         alert("Please enter the full contact")
         document.querySelector('#con').focus()
 
         return false
     }
-    else if(age.length>3)
+    else if(con.length>10 || con.length<10)
+    {
+        alert("Please enter the full contact")
+        document.querySelector('#con').focus()
+
+        return false
+    }
+    else if(isNaN(contact))
+    {
+        alert("Please enter a number")
+        document.querySelector('#con').focus()
+
+        return false
+    }
+    else if(age.length=="")
     {
         alert("Please enter your age")
+        document.querySelector('#age').focus()
+
+        return false
+    }
+    else if(age.length>3)
+    {
+        alert("Please enter max 3 digits")
         document.querySelector('#age').focus()
 
         return false
