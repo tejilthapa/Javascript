@@ -4,6 +4,8 @@ function validate()
     let city = document.querySelector('#city').value
     let con  = document.querySelector('#con').value
     let age  = document.querySelector('#age').value
+    let email = document.querySelector('#email').value
+    let pass = document.querySelector('#pass').value
 
     if(name=="")
     {
@@ -26,6 +28,13 @@ function validate()
 
         return false
     }
+    else if(isNaN(con))
+    {
+        alert("Please enter a number")
+        document.querySelector('#con').focus()
+
+        return false
+    }
     else if(con.length>10 || con.length<10)
     {
         alert("Please enter the full contact")
@@ -33,16 +42,16 @@ function validate()
 
         return false
     }
-    else if(isNaN(contact))
+    else if(age=="")
     {
-        alert("Please enter a number")
-        document.querySelector('#con').focus()
+        alert("Please enter your age")
+        document.querySelector('#age').focus()
 
         return false
     }
-    else if(age.length=="")
+    else if(isNaN(age))
     {
-        alert("Please enter your age")
+        alert("Please enter a number")
         document.querySelector('#age').focus()
 
         return false
@@ -51,6 +60,41 @@ function validate()
     {
         alert("Please enter max 3 digits")
         document.querySelector('#age').focus()
+
+        return false
+    }
+    else if(email.length=="")
+    {
+        alert("Please Enter your email")
+        document.querySelector('#email').focus()
+
+        return false
+    }
+    else if(!(email.includes('@')))
+    {
+        alert("Please Enter a valid email")
+        document.querySelector('#email').focus()
+
+        return false
+    }
+    else if(!(email.includes('gmail.com') || email.includes('yahoo.com')))
+    {
+        alert("Please Enter a email with gmail or yahoo")
+        document.querySelector('#email').focus()
+
+        return false
+    }
+else if(pass=="")
+    {
+        alert("Please Enter a password")
+        document.querySelector('#pass').focus()
+
+        return false
+    }
+    else if(!(pass.match(/[+-@!#$%&*^]/)))
+    {
+        alert("Please Enter a special chracter in password")
+        document.querySelector('#pass').focus()
 
         return false
     }
