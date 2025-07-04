@@ -63,21 +63,14 @@ function validate()
 
         return false
     }
-    else if(email.length=="")
+    else if(email=="")
     {
         alert("Please Enter your email")
         document.querySelector('#email').focus()
 
         return false
     }
-    else if(!(email.includes('@')))
-    {
-        alert("Please Enter a valid email")
-        document.querySelector('#email').focus()
-
-        return false
-    }
-    else if(!(email.includes('gmail.com') || email.includes('yahoo.com')))
+    else if(!(email.includes('@gmail.com') || email.includes('@yahoo.com')))
     {
         alert("Please Enter a email with gmail or yahoo")
         document.querySelector('#email').focus()
