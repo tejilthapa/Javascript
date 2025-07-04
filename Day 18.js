@@ -91,7 +91,8 @@ else if(pass=="")
 
         return false
     }
-    else if(!(pass.match(/[+-@!#$%&*^]/)))
+    else if(!
+        (pass.match(/[+-@!#$%&*^]/)))
     {
         alert("Please Enter a special chracter in password")
         document.querySelector('#pass').focus()
