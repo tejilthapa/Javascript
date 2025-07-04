@@ -77,19 +77,26 @@ function validate()
 
         return false
     }
-else if(pass=="")
+    else if(pass=="")
     {
         alert("Please Enter a password")
         document.querySelector('#pass').focus()
 
         return false
     }
-    else if(!
-        (pass.match(/[+-@!#$%&*^]/)))
+    else if(pass.length>9)
+    {
+        alert("Please Enter a 8 digit password")
+        document.querySelector('#pass').focus()
+
+        return false
+    }
+    else if(!(pass.match(/[+-@!#$%&*^]/)))
     {
         alert("Please Enter a special chracter in password")
         document.querySelector('#pass').focus()
 
         return false
     }
+    else if(!(pass.match(/[ABCDEFGHIJKLMNOPQRSTUVWXYZX]/)))
 }
