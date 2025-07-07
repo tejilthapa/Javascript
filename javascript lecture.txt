@@ -126,6 +126,58 @@ It can be either printed directly or store in a  variable to do operations later
 DOM - Document Object Module
 Whatever change in html is done by this is called Node.
 To apply a change you need to target that tag.
+
+
+
+Callback function
+
+funciton demo(funciton demo2()
+{
+
+})
+
+let ar = [1,2,3,4,5,6,7,8]
+
+map(()=>{})
+
+map makes sure to shift the selected element from a array to a new array, it only work in array
+
+filter function = it filters the specific elements from the array
+
+
+7, July, 2025:-
+
+Array of objects ->
+
+Format
+let obj = [
+	{
+
+	},
+	{
+
+	},
+	{
+
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---------------------------------------------x------------------------------------------------------
 
 H.W.
@@ -138,4 +190,8 @@ What is Scripting language?
 
 print 1st top key in object
 
-What is ES6
+What is ES6?
+
+
+1. uo list with 10 li's the even should have background color yellow
+2. the odd number text color should be red 
