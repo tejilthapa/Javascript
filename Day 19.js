@@ -16,7 +16,7 @@ let emp =[
 // console.log(val1)
 
 
-let newarr = emp.map((e)=>{return e})
+let newarr = emp.map((e)=>{return e.age})
 console.log(newarr)
 
 
