@@ -22,4 +22,5 @@ let emp =[
 let newarr1 = emp.filter((e)=>{return e.age>20})
 console.log(newarr1)
 
+////
 
