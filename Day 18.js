@@ -100,4 +100,3 @@ function validate()
     }
     else if(!(pass.match(/[ABCDEFGHIJKLMNOPQRSTUVWXYZX]/)))
 }
-///////
