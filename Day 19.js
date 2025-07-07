@@ -1,9 +1,9 @@
 let emp =[
     {name:"Tejil",age:21,city:"Indore",contact:4654634},
     {name:"Adil",age:22,city:"Bhopal",contact:1212121},
-    {name:"Nitin",age:20,city:"Gwalior",contact:9989899},
+    {name:"Nitin",age:19,city:"Gwalior",contact:9989899},
     {name:"Mukesh",age:21,city:"Raipur",contact:1774144},
-    {name:"Saurabh",age:21,city:"Saagar",contact:5515558}
+    {name:"Saurabh",age:18,city:"Saagar",contact:5515558}
 ]
 // console.log(emp)
 
@@ -16,10 +16,10 @@ let emp =[
 // console.log(val1)
 
 
-let newarr = emp.map((e)=>{return e.age})
-console.log(newarr)
+// let newarr = emp.map((e)=>{return e})
+// console.log(newarr)
 
-
-
+let newarr1 = emp.filter((e)=>{return e.age>20})
+console.log(newarr1)
 
 
