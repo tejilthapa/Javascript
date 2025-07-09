@@ -15,3 +15,12 @@ function store()
     let pass = document.querySelector('#pass').value
     localStorage.setItem('Password',pass)
 }
+
+
+// let a = localStorage.getItem('Age')
+// console.log(a)
+
+// let b = localStorage.removeItem('Password')
+// console.log(b)
+
+// localStorage.clear()

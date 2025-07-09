@@ -172,10 +172,10 @@ Local Storage : This a type of storage that is available in the users brower,
 				the data is stored in key and value format and the data type will be string.
 
 
-Pre - defined fn() -> setItem()
-					  getItem()
-					  removeItem()
-					  clear()
+Pre - defined fn() -> setItem() = insert
+					  getItem() = retrive
+					  removeItem() = delete
+					  clear() = all delete
 
 
 
