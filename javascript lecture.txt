@@ -164,6 +164,24 @@ let obj = [
 
 
 
+9, July, 2025:-
+
+Local Storage : This a type of storage that is available in the users brower,
+				this stores the data like user id etc,
+				this cannot be deleted automatically.
+				the data is stored in key and value format and the data type will be string.
+
+
+Pre - defined fn() -> setItem()
+					  getItem()
+					  removeItem()
+					  clear()
+
+
+
+
+
+
 
 
 
