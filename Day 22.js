@@ -7,7 +7,7 @@
 // localStorage.getItem()
 
 
-function validate()
+function storedata()
 {
     let userdata = {
         name:document.querySelector('#name').value,
@@ -18,7 +18,7 @@ function validate()
     localStorage.setItem('signdata', JSON.stringify(userdata))
 }
 
-let storage = JSON.parse(localStorage.getItem('signdata'))
+let storedata = JSON.parse(localStorage.getItem('signdata'))
 console.log(storedata)
 
 function logindata(){
@@ -28,4 +28,9 @@ function logindata(){
     }
 }
 
+if(storedata.email!=logind.email || storedata.password != logind.password){
+    alert("User not Found")
+
+    return false
+}
 
