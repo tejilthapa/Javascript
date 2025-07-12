@@ -179,6 +179,12 @@ Pre - defined fn() -> setItem() = insert
 
 
 
+the use of new variable to identify the element in the array is called destructuring the array .
+
+Spread Operator is used to merge 2 or more arrays
+
+
+
 
 
 
