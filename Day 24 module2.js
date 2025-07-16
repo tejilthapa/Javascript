@@ -1,9 +1,11 @@
-function add(){
+// Named Export
+
+export function add(){
     console.log('This is the add function')
 }
 
-function sub(){
+export function sub(){
     console.log('This is the sub function')
 }
 
-export {add, sub}
+// export {add, sub}

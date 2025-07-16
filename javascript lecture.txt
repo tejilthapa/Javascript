@@ -198,9 +198,12 @@ Modules -> these are the multiple js files connected to a main js file.
 			the named one is used to import/export multiple function or value, 
 			whereas the default is used when single value or function is imported/exported.
 
-			you can change the name of the function while importing according to your choice only in default.
+			you can change the name of the function while importing according to your choice in default.
+			you can change the name of function in named import/export using alias.
 
-to enable te es6 module we need to specify the type  
+			when you use export in front of function it is still named export
+
+to enable te es6 module we need to specify the type. 
 
 
 
