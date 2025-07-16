@@ -181,7 +181,27 @@ Pre - defined fn() -> setItem() = insert
 
 the use of new variable to identify the element in the array is called destructuring the array .
 
-Spread Operator is used to merge 2 or more arrays
+Spread Operator is used to merge 2 or more arrays.
+
+
+Node js is a runtime environment.
+
+
+
+
+Modules -> these are the multiple js files connected to a main js file. 
+			in this the module file data is imported and exported to one another
+            there are 2 types 
+			1. common js module [modules.export/require]
+			2.ES6 module [import/export]
+			there are 2 type of import/export, first being the named and the other being the default
+			the named one is used to import/export multiple function or value, 
+			whereas the default is used when single value or function is imported/exported.
+
+			you can change the name of the function while importing according to your choice only in default.
+
+to enable te es6 module we need to specify the type  
+
 
 
 
