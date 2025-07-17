@@ -207,6 +207,31 @@ to enable te es6 module we need to specify the type.
 
 
 
+17, July, 2025:-
+
+
+API -> application programming interface
+
+fetch() -> get, post, delete, put, patch
+fetch returns the promise
+promise -> fufill, pending, reject
+promise is obj 
+for promise to work await async is used.
+
+HTTP Methods :-
+			-> get, post, delete, put, patch
+
+			fetch() => promise => async await get -> api -> server (slow)
+
+
+
+JSON -> javascript object notation
+		.json 
+
+		
+
+
+
 
 
 
