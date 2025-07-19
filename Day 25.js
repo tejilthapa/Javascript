@@ -2,7 +2,7 @@
 
 
 async function demo (){
-    let respone = await fetch("https://jsonplaceholder.typicode.com/commentshttps://jsonplaceholder.typicode.com/comments")
+    let respone = await fetch("https://jsonplaceholder.typicode.com/comments")
     let data = await respone.json()
     // let a = data.map((e)=>{return e.name})
 
